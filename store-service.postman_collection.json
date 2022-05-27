@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "d39e3fa7-4f30-4e8b-a2e8-bf20e148074e",
+		"name": "store-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Mango\",\r\n    \"addressLine1\": {\r\n        \"state\": null,\r\n        \"country\": null,\r\n        \"pinCode\": \"782137\"\r\n    },\r\n    \"phoneNumber\": 8978675443,\r\n    \"email\": \"mango@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8989/store",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getByPin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8989/store/782137",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"store",
+						"782137"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

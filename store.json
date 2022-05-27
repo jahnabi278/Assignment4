@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6290acdb3342435839a4e4b9"
+  },
+  "name": "Nykaa",
+  "addressLine1": {
+    "state": "Assam",
+    "country": "India",
+    "pinCode": "782137"
+  },
+  "phoneNumber": 8978675443,
+  "email": "Nykaa@gmail.com",
+  "_class": "common.beans.Store"
+},{
+  "_id": {
+    "$oid": "6290b1fb264a8e1b504b08ad"
+  },
+  "name": "Mango",
+  "addressLine1": {
+    "state": "Assam",
+    "country": "India",
+    "pinCode": "782137"
+  },
+  "phoneNumber": 8978675443,
+  "email": "mango@gmail.com",
+  "_class": "common.beans.Store"
+},{
+  "_id": {
+    "$oid": "6290b211264a8e1b504b08ae"
+  },
+  "name": "Mango",
+  "addressLine1": {
+    "pinCode": "782137"
+  },
+  "phoneNumber": 8978675443,
+  "email": "mango@gmail.com",
+  "_class": "common.beans.Store"
+},{
+  "_id": {
+    "$oid": "6290b886264a8e1b504b08b2"
+  },
+  "name": "Mango",
+  "addressLine1": {
+    "pinCode": "782137"
+  },
+  "phoneNumber": 8978675443,
+  "email": "mango@gmail.com",
+  "_class": "common.beans.Store"
+}]

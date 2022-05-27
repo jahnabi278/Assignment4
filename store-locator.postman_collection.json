@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "9f06a26a-c29d-47f0-98f7-bbcc11c01a9c",
+		"name": "store-locator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getStores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8989/storelocator/789",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"storelocator",
+						"789"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
