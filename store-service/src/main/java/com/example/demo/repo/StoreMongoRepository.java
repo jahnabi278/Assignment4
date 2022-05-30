@@ -10,6 +10,6 @@ import common.beans.Store;
 
 @Repository
 public interface StoreMongoRepository extends MongoRepository<Store, String> {
-	@Query("{addressLine1.pinCode:?0}")
+	@Query("{'addressLine1':{'pinCode':?0}}")
 	List<Store> findByPinCode(String pinCode);
 }
